@@ -1,0 +1,27 @@
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color:#20655A;
+    text-transform: uppercase;
+    margin-left: 25px;
+    margin-right: 25px;
+    font: 27px;
+} 
+
+.menu {
+    background-color: #CCD5CA;
+}
+
+.barra-topo {
+    background-color: #CCD5CA;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}   
+
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+body {
+    font-family: 'Hubballi', sans-serif;
+}

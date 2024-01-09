@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artstetic | Pedido de Orçamento</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+
+<!--O container é o que segura todo o nosso desenho (toda a página). Dentro do container há rows, cada uma representa uma área de conteúdo (por ex o menu, o carrosel, ect). Dentro de cada row há colunas (quando queremos por ex meter vários displays uns ao lado dos outros). Dentro de cada coluna existem elementos html. Uma row (ex: carrosel) que ocupe toda a largura do site tem 12 colunas.-->
+
+
+<!--"div.container" é um atalho para pouparmos tempo e não termos erros-->
+<div class="container"> <!--o container é toda a página-->
+
+  <!--Logo topo-->
+
+  <div class="row barra-topo">
+    <div class="col-md-4 offset-md-4">
+        <a href="index.html"><img src="imagens/logohome.jpg" alt="Logotipo da Artstetic" class="img-fluid"></a>
+    </div>
+</div>
+
+<!--Menu-->
+
+  <div class="row"
+    <div class="col-md-12">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">História</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="estilos.html">Estilos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Orçamentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Feedback</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!--Carrossel-->
+
+    <div class="row">
+        <div class="col-md-12 p-0">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="estilos.html"><img src="imagens/carroseldet.jpg" class="d-block w-100" alt="Ilustração do ator José Condesa na série Rabo de Peixe, no estilo detalhado."></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="estilos.html"><img src="imagens/carroselmin.jpg" class="d-block w-100" alt="Ilustração de um casal no estilo minimalista"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="estilos.html"><img src="imagens/carrossel3.jpg" class="d-block w-100" alt="..."></a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+</div>
+
+<!--Aqui posso inserir comentários sobre o código-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
